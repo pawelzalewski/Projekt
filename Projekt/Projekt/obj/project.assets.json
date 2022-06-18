@@ -8,26 +8,23 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\pawel\\.nuget\\packages\\": {}
+    "C:\\Users\\Kub\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\pawel\\Desktop\\Projekt\\projekt-po\\Projekt\\Projekt\\Projekt.csproj",
+      "projectUniqueName": "C:\\Users\\Kub\\Documents\\oop\\projekt-po\\Projekt\\Projekt\\Projekt.csproj",
       "projectName": "Projekt",
-      "projectPath": "C:\\Users\\pawel\\Desktop\\Projekt\\projekt-po\\Projekt\\Projekt\\Projekt.csproj",
-      "packagesPath": "C:\\Users\\pawel\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\pawel\\Desktop\\Projekt\\projekt-po\\Projekt\\Projekt\\obj\\",
+      "projectPath": "C:\\Users\\Kub\\Documents\\oop\\projekt-po\\Projekt\\Projekt\\Projekt.csproj",
+      "packagesPath": "C:\\Users\\Kub\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Kub\\Documents\\oop\\projekt-po\\Projekt\\Projekt\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\pawel\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Kub\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
       ],
-      "sources": {
-        "https://api.nuget.org/v3/index.json": {}
-      },
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
@@ -58,7 +55,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }
