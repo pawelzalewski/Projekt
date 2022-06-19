@@ -22,17 +22,17 @@ namespace Projekt
             string g = Console.ReadLine();
             Console.Clear();
             if (g.ToLower() == "g")
-                Console.WriteLine("Witam gracza");
+                Print("Witam gracza", 60);
             else
                 goto poczatek;
             //Wstęp oraz imie naszej postaci
-            Console.WriteLine("Podaj swoje imię:");
+            Print("Podaj swoje imię:", 60);
             imie:
             postac.name = Console.ReadLine();
             Console.Clear();
             if (postac.name == "")
             {
-                Console.WriteLine("Musisz podac swoje imie");
+                Print("Musisz podac swoje imie");
                 goto imie;
             }
                 Console.WriteLine("A więc twoje imie to {0}, grubo",postac.name);
@@ -90,5 +90,17 @@ namespace Projekt
             Console.WriteLine("Skocz tacie po piwko");
             Console.Clear();
         }
+
+        public static void Print(string text, int speed = 40)
+        {
+          foreach (char c in text)
+          {
+            System.Console.Write(c);
+            System.Threading.Thread.Sleep(speed);
+          }
+          System.Console.WriteLine();
+
+        }
     }
+  
 }

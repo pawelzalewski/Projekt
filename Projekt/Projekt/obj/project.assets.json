@@ -8,23 +8,26 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Kub\\.nuget\\packages\\": {}
+    "/home/kub/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Kub\\Documents\\oop\\projekt-po\\Projekt\\Projekt\\Projekt.csproj",
+      "projectUniqueName": "/home/kub/school/projekt-po/Projekt/Projekt/Projekt.csproj",
       "projectName": "Projekt",
-      "projectPath": "C:\\Users\\Kub\\Documents\\oop\\projekt-po\\Projekt\\Projekt\\Projekt.csproj",
-      "packagesPath": "C:\\Users\\Kub\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Kub\\Documents\\oop\\projekt-po\\Projekt\\Projekt\\obj\\",
+      "projectPath": "/home/kub/school/projekt-po/Projekt/Projekt/Projekt.csproj",
+      "packagesPath": "/home/kub/.nuget/packages/",
+      "outputPath": "/home/kub/school/projekt-po/Projekt/Projekt/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Kub\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/home/kub/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
       ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
@@ -50,12 +53,22 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[5.0.0, 5.0.0]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.linux-x64",
+            "version": "[5.0.14, 5.0.14]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.102/RuntimeIdentifierGraph.json"
       }
     }
   }
