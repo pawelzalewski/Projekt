@@ -61,20 +61,21 @@ namespace Projekt
                     if (odp1.ToLower() == "t" || odp1.ToLower() == "tak")
                     {
                         int szansa = rand.Next(0, Program.postac.szansa) + rand.Next(1, 4);
-                        Console.WriteLine("Swietnie, twoja szansa na zdanie wzrosla o " + szansa + "%");
-                        Program.postac.szansa += szansa;
+                        Program.postac.szansa -= szansa;
+                        Console.WriteLine("Ok, niestety, ale twoja szansa na zdanie zmalała o " + szansa + "%");
                         Console.WriteLine("Twoja szansa na zdanie to: ");
                         Console.WriteLine(Program.postac.szansa);
                         Console.WriteLine("*wcisnij dowolny przycisk aby kontynuować przygodę*");
+                        Console.ReadKey();
                     }
                     else if (odp1.ToLower() == "n" || odp1.ToLower() == "nie")
                     {
                         int szansa = rand.Next(0, Program.postac.szansa) + rand.Next(1, 4);
-                        Console.WriteLine("Ok, niestety, ale twoja szansa na zdanie zmalała o " + szansa + "%");
-                        Program.postac.szansa -= szansa;
+                        Console.WriteLine("Swietnie, twoja szansa na zdanie wzrosla o " + szansa + "%");
+                        Program.postac.szansa += szansa;
                         Console.WriteLine("Szansa na zdanie: {0}%", Program.postac.szansa);
-                        Console.ReadKey();
                         Console.WriteLine("*wcisnij dowolny przycisk aby kontynuować przygodę*");
+                        Console.ReadKey();
                     }
                 }
             }
