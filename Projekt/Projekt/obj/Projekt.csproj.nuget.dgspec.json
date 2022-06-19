@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/kub/school/projekt-po/Projekt/Projekt/Projekt.csproj": {}
+    "C:\\Users\\pawel\\Desktop\\Projekt\\projekt-po\\Projekt\\Projekt\\Projekt.csproj": {}
   },
   "projects": {
-    "/home/kub/school/projekt-po/Projekt/Projekt/Projekt.csproj": {
+    "C:\\Users\\pawel\\Desktop\\Projekt\\projekt-po\\Projekt\\Projekt\\Projekt.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/kub/school/projekt-po/Projekt/Projekt/Projekt.csproj",
+        "projectUniqueName": "C:\\Users\\pawel\\Desktop\\Projekt\\projekt-po\\Projekt\\Projekt\\Projekt.csproj",
         "projectName": "Projekt",
-        "projectPath": "/home/kub/school/projekt-po/Projekt/Projekt/Projekt.csproj",
-        "packagesPath": "/home/kub/.nuget/packages/",
-        "outputPath": "/home/kub/school/projekt-po/Projekt/Projekt/obj/",
+        "projectPath": "C:\\Users\\pawel\\Desktop\\Projekt\\projekt-po\\Projekt\\Projekt\\Projekt.csproj",
+        "packagesPath": "C:\\Users\\pawel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\pawel\\Desktop\\Projekt\\projekt-po\\Projekt\\Projekt\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/kub/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\pawel\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -47,22 +47,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.linux-x64",
-              "version": "[5.0.14, 5.0.14]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.102/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
         }
       }
     }

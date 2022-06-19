@@ -1,11 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "b9s3osGMl5dF3Q2wzVdEGPIcGYah+SgSK3ZUhLKgF8o8Bh+U6C1RKvVRWueRnsm7E2Zm5PSxqQhV2QjxPuXzKQ==",
+  "dgSpecHash": "O9jaybzAhBRiKmb1fN9VZj1XLPi5vGS4vBzlwcqlIHcMgOAJba78oFi9b55sH4hC7sSc6legRvDMC+ris0tTNg==",
   "success": true,
-  "projectFilePath": "/home/kub/school/projekt-po/Projekt/Projekt/Projekt.csproj",
-  "expectedPackageFiles": [
-    "/home/kub/.nuget/packages/microsoft.aspnetcore.app.ref/5.0.0/microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
-    "/home/kub/.nuget/packages/microsoft.netcore.app.host.linux-x64/5.0.14/microsoft.netcore.app.host.linux-x64.5.0.14.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\Users\\pawel\\Desktop\\Projekt\\projekt-po\\Projekt\\Projekt\\Projekt.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

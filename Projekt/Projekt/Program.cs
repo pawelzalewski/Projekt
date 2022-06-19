@@ -11,6 +11,8 @@ namespace Projekt
         {
             Start();
             Akcje.PierwszaAkcja();
+            Rozdzial_2.Rozdzial2();
+
         }
 
         static void Start()
