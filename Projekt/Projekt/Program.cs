@@ -41,13 +41,6 @@ namespace Projekt
             Console.WriteLine("A więc twoje imie to {0}, grubo", postac.name);
             Console.ReadKey();
             Console.Clear();
-
-
-            //Rozdział 1
-            Console.WriteLine("Rozdział 1");
-            Console.WriteLine("Misja");
-            Console.ReadKey();
-            Console.Clear();
         }
 
         public static void Print(string text, int speed = 40)

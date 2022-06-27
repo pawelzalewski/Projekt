@@ -6,7 +6,11 @@ namespace Projekt
     {
         public static void Intro()
         {
-//Wstęp
+            //Rozdział 1
+            Console.WriteLine("Rozdział 1");
+            Console.WriteLine("Misja");
+            Console.ReadKey();
+            Console.Clear();
             Console.WriteLine(
                 "Kurczę, nienawidzę moich studiów. Zaraz mam sesję, nic nie umiem, w pracy szef krzyczy, a najgorsze, że mamie będzie smutno jak nie zdam");
 

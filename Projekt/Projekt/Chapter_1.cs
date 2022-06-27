@@ -14,9 +14,6 @@ namespace Projekt
 
         public static void Interakcja()
         {
-           
-
-            // while (h > 0)
             {
                 Console.WriteLine("=================================");
                 Console.WriteLine();
