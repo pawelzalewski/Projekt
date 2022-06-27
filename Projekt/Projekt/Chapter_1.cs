@@ -2,29 +2,19 @@
 
 namespace Projekt
 {
-    public class Akcje
+    public class Chapter_1
     {
         static Random rand = new Random();
 
         public static void PierwszaAkcja()
         {
-            Console.WriteLine("Okazuje się, że za tydzień sesja, cr");
-            Console.ReadKey();
-            Interakcja(false, "Czeka na ciebie analiza matematyczna", 5);
+            Program.Print("Okazuje się, że za tydzień sesja, co robisz", 60);
+            Interakcja();
         }
 
-        public static void Interakcja(bool random, string name, int chance)
+        public static void Interakcja()
         {
-            string n = "";
-            int c = 0;
-            if (random)
-            {
-            }
-            else
-            {
-                n = name;
-                c = chance;
-            }
+           
 
             // while (h > 0)
             {
@@ -79,6 +69,7 @@ namespace Projekt
                     }
                 }
             }
+            Console.Clear();
         }
     }
 }

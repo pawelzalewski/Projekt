@@ -2,7 +2,7 @@
 
 namespace Projekt
 {
-    public class Rozdzial_2
+    public class Chapter_2
     {
         public static void Rozdzial2()
         {
