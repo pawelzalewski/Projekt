@@ -6,6 +6,7 @@ namespace Projekt
     {
         public static void Rozdzial2()
         {
+            
             Console.WriteLine("Księciuniu dorgi, czy miałby ksiązę pożyczyć 2 zł");
         }
     }
