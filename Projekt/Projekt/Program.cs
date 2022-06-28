@@ -9,13 +9,12 @@ namespace Projekt
 
         static void Main(string[] args)
         {
-            
-            Chapter_4.Deszcz();
             Start();
             Introduction.Intro();
             Chapter_1.PierwszaAkcja();
             Chapter_2.Rozdzial2();
-             
+
+            Chapter_4.Deszcz();
         }
 
         static void Start()
