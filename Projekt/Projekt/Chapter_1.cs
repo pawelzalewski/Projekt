@@ -29,7 +29,7 @@ namespace Projekt
                     Console.WriteLine("Swietnie, twoja szansa na zdanie wzrosla o " + szansa + "%");
                     Program.postac.szansa += szansa;
                     Console.WriteLine("Twoja szansa na zdanie to: " + Program.postac.szansa + "%");
-                    Console.WriteLine("*wcisnij dowolny przycisk aby kontynuować przygodę*");
+                    Console.WriteLine("Wciśnij dowolny przycisk, aby kontynuować...");
                     Console.ReadKey();
                 }
                 else if (odp.ToLower() == "w" || odp.ToLower() == "wywalone")
@@ -38,7 +38,7 @@ namespace Projekt
                     Console.WriteLine("Co w takim razie zamierzasz teraz zrobić");
                     string zamiar = Console.ReadLine();
                     Console.WriteLine("Dobrze, " + zamiar +
-                                      " brzmi niezle, ale czy napewno uwazasz ze nie jest lepiej sie pouczyc? Sesja lada chwila, a ty nic nie umiesz.");
+                                      " brzmi interesująco, ale czy napewno uwazasz ze nie jest lepiej sie pouczyc? Sesja lada chwila, a ty nic nie umiesz.");
                     Console.WriteLine("==============================");
                     Console.WriteLine();
                     Console.WriteLine("| T(ak)    (N)ie");
@@ -50,9 +50,8 @@ namespace Projekt
                         int szansa = rand.Next(0, Program.postac.szansa) + rand.Next(1, 4);
                         Program.postac.szansa -= szansa;
                         Console.WriteLine("Ok, niestety, ale twoja szansa na zdanie zmalała o " + szansa + "%");
-                        Console.WriteLine("Twoja szansa na zdanie to: ");
-                        Console.WriteLine(Program.postac.szansa);
-                        Console.WriteLine("*wcisnij dowolny przycisk aby kontynuować przygodę*");
+                        Console.WriteLine("Szansa na zdanie: {0}%", Program.postac.szansa);
+                        Console.WriteLine("Wciśnij dowolny przycisk, aby kontynuować...");
                         Console.ReadKey();
                     }
                     else if (odp1.ToLower() == "n" || odp1.ToLower() == "nie")
@@ -61,7 +60,7 @@ namespace Projekt
                         Console.WriteLine("Swietnie, twoja szansa na zdanie wzrosla o " + szansa + "%");
                         Program.postac.szansa += szansa;
                         Console.WriteLine("Szansa na zdanie: {0}%", Program.postac.szansa);
-                        Console.WriteLine("*wcisnij dowolny przycisk aby kontynuować przygodę*");
+                        Console.WriteLine("Wciśnij dowolny przycisk, aby kontynuować...");
                         Console.ReadKey();
                     }
                 }
