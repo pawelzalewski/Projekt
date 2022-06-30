@@ -12,6 +12,7 @@ namespace Projekt
             Program.Print("Co robisz w tej sytuacji?");
             Program.Print("Twoja szansa na zdanie wynosi: ");
             Console.Write(Program.postac.szansa);
+            Console.WriteLine("");
             CzyUczycSie();
         }
 

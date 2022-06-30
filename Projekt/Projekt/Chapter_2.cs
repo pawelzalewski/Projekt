@@ -7,6 +7,7 @@ namespace Projekt
 { public class Chapter_2
     { public static void Osiedlowy() 
         {
+            Console.Clear();
             Program.Print("W końcu dotarłeś do sklepu.");
             Console.WriteLine("Nazwa sklepu:");
             Console.WriteLine(@"

@@ -80,7 +80,7 @@ namespace Projekt
 
                 if (odp.ToLower() == "a" || odp.ToLower() == "atak")
                 {
-                    Console.WriteLine("Uderzasz " + n + ". Po chwili dostajesz cios od niego");
+                    Console.WriteLine("Uderzasz " + n + ". Po chwili dostajesz od niego cios");
                     int d = p / 2 - Program.postac.psychika / 4;
                     if (d < 0)
                         d = 0;

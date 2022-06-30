@@ -130,9 +130,6 @@ namespace Projekt
                 Console.WriteLine(lose);
                 Program.Print("Niestety nie udało ci się. Trzeba będzie dociskać na drugi termin. (Złe zakończenie)");
             }
-
-            Console.WriteLine(Program.postac.szansa);
-            Console.WriteLine(r);
         }
     }
 }
