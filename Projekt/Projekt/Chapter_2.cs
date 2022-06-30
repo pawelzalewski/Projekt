@@ -9,7 +9,6 @@ namespace Projekt
         {
             Console.Clear();
             Program.Print("W końcu dotarłeś do sklepu.");
-            Console.WriteLine("Nazwa sklepu:");
             Console.WriteLine(@"
  #     #                                                    
  ##   ## # #####    ##   #####  ###### #      #    #   ##   

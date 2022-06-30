@@ -8,6 +8,24 @@ namespace Projekt
 
         public static void PonownaNauka()
         {
+            string title = @"                                                  
+                                                  
+___      ___                  ___                 
+`MM\     `M'                  `MM                 
+ MMM\     M                    MM                 
+ M\MM\    M    ___  ___   ___  MM   __     ___    
+ M \MM\   M  6MMMMb `MM    MM  MM   d'   6MMMMb   
+ M  \MM\  M 8M'  `Mb MM    MM  MM  d'   8M'  `Mb  
+ M   \MM\ M     ,oMM MM    MM  MM d'        ,oMM  
+ M    \MM\M ,6MM9'MM MM    MM  MMdM.    ,6MM9'MM  
+ M     \MMM MM'   MM MM    MM  MMPYM.   MM'   MM  
+ M      \MM MM.  ,MM YM.   MM  MM  YM.  MM.  ,MM  
+_M_      \M `YMMM9'Yb.YMMM9MM__MM_  YM._`YMMM9'Yb.
+                                                  
+                                                  
+                                                  
+";
+            Console.WriteLine(title);
             Program.Print("Po skończonej nauce, sprawdzasz wiadomość od starosty i okazuje się, że jutro sesja.", 60);
             Program.Print("Co robisz w tej sytuacji?");
             Program.Print("Twoja szansa na zdanie wynosi: ");
