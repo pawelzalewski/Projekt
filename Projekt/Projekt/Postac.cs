@@ -4,7 +4,9 @@
     {
         public string name;
         public int szansa = 10;
-        public int psycha = 55;
-        
+        public int psychika = 10;
+        public int moc = 5;
+        public bool bezdomny = false;
+
     }
 }
