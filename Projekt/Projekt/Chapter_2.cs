@@ -30,9 +30,8 @@ namespace Projekt
             Console.WriteLine("2. Jajka");
             Console.WriteLine("3. Perła eksport"); 
             Console.WriteLine("Stać cię tylko na dwie rzeczy.");
-            Console.ReadKey();
             Console.WriteLine("");
-            Console.WriteLine("Jaki pierwszy produkt wybierasz?");
+            Program.Print("Jaki pierwszy produkt wybierasz?");
             Console.WriteLine("============================================================");
             Console.WriteLine(); 
             Console.WriteLine("| (1) Mleko     (2) Jajka    (3) Perła eksport |");
@@ -40,7 +39,7 @@ namespace Projekt
             Console.WriteLine("============================================================");
             string z1 = Console.ReadLine();
             Console.Clear();
-            Console.WriteLine("Jaki drugi produkt wybierasz?");
+            Program.Print("Jaki drugi produkt wybierasz?");
             Console.WriteLine("============================================================");
             Console.WriteLine(); 
             Console.WriteLine("| (1) Mleko     (2) Jajka    (3) Perła eksport |");
@@ -121,34 +120,34 @@ namespace Projekt
             }
             else if ((z1 == "Mleko") & (z2 == "Jajka"))
             {
-                Program.Print("Mama: Brawo synuś");
+                Program.Print("Mama: Brawo synuś!");
                 Program.Print("Tata: Przykro mi, że nie traktujesz mnie poważnie...");
             }
             else if ((z1 == "Mleko") & (z2 == "Perła eksport"))
             {
                 Program.Print("Mama: Mogło być gorzej...");
-                Program.Print("Tata: Kocham cię synek");
+                Program.Print("Tata: Kocham cię synek!");
                 
             }
             else if ((z1 == "Jajka") & (z2 == "Mleko"))
             {
-                Program.Print("Mama: Brawo synuś");
+                Program.Print("Mama: Brawo synuś!");
                 Program.Print("Tata: Przykro mi, że nie traktujesz mnie poważnie...");
             }
             else if ((z1 == "Jajka") & (z2 == "Perła eksport"))
             {
                 Program.Print("Mama: Mogło być gorzej...");
-                Program.Print("Tata: Kocham cię synek");
+                Program.Print("Tata: Kocham cię synek!");
             }
             else if ((z1 == "Perła eksport") & (z2 == "Mleko"))
             {
                 Program.Print("Mama: Mogło być gorzej...");
-                Program.Print("Tata: Kocham cię synek");
+                Program.Print("Tata: Kocham cię synek!");
             }
             else if ((z1 == "Perła eksport") & (z2 == "Jajka"))
             {
                 Program.Print("Mama: Mogło być gorzej...");
-                Program.Print("Tata: Kocham cię synek");
+                Program.Print("Tata: Kocham cię synek!");
             }
 
             Console.ReadKey();
