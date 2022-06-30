@@ -8,7 +8,7 @@ namespace Projekt
 
         public static void PierwszaAkcja()
         {
-            Program.Print("Okazuje się, że za tydzień sesja, co robisz", 60);
+            Program.Print("Okazuje się, że zbliża sie sesja, co robisz?", 60);
             Interakcja();
         }
 

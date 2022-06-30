@@ -12,48 +12,48 @@ namespace Projekt
             Console.ReadKey();
             Console.Clear();
             Program.Print(
-                "Kurczę, nienawidzę moich studiów. Zaraz mam sesję, nic nie umiem, w pracy szef krzyczy, a najgorsze, że mamie będzie smutno jak nie zdam");
+                "Przyszedł ten czas w życiu studenta. Sesja zbliża sie nieubłaganie a ty, nie ma w tym zaskoczenia, nic nie umiesz. Wiadomo, nie miałeś czasu sie uczyć bo ciężko pracujesz.\n Jednak wypadałoby się wziąć za nauke. W przeciwnym razie mógłbyś nie zdać, a mamie byłoby bardzo smutno.");
 
             Console.ReadKey();
-            Program.Print("Co mógłbym zrobić, żeby zdać? Ciekawe co teraz wpadnie mi do głowy");
+            Program.Print("Co mógłbym zrobić, żeby zdać? - myślisz sobie licząc że coś mądrego wpadnie ci do głowy?");
             
-            Program.Print("(teraz trzeba napisać myśl, która przyjdzie do głowy)");
+            Program.Print("(teraz trzeba napisać myśl, która przyjdzie ci do głowy)");
             string input = Console.ReadLine();
 
-            Program.Print(input + "" + " Faktycznie fajna myśl.");
+            Program.Print(input + "" + ". Faktycznie fajna myśl, ale czy aby na pewno ci to w czymś pomoże?");
             Console.ReadKey();
             Program.Print(
-                "Szkoda że przez zniewolenie technologiczne spowodowane rewolucją przemysłową, jestem uzależniony od mediów społecznościowych co spowodowało, że mój mózg nie jest w stanie zapamiętać tej informacji, ponieważ jest przyzwyczajony do ciągłego czytania kompletnie nowych postów");
+                "Gdybyś tylko mógł zapamiętać tą myśl. Szkoda że jesteś uzależniony od mediów społecznościowych i ich ciągłego zalewu informacjami. Gdyby nie one może nie miałbyś takich problemów z pamięcią.");
 
             Console.ReadKey();
-            Program.Print("Hmm, najlepszą opcją będzie teraz zobaczenie czy nie ma czegoś nowego na facebooku");
+            Program.Print("Decydujesz że w zaistniałej sytuacji najlepszą opcją jest przegląd facebooka. Może tam znajdziesz jakąś inspiracje do nauki?");
             Console.ReadKey();
             Console.Clear();
-            Program.Print("(konsumuje informacje przez następne 16 minut");
+            Program.Print("(16 minut później)");
             Console.ReadKey();
             Console.Clear();
             Program.Print(
-                "(krzyczy na głos) COOOOOO???? TO IZRAEL JEST ODPOWIEDZIALNY ZA ZNISZCZENIE USS LIBERTY??");
+                "Ty:CO? ZNISZCZENIE USS LIBERTY?! KTO ZA TYM WSZYSTKIM STOI?");
 
             Console.ReadKey();
 
-            //Roboczo to co mówi tata będzie się zaczynać od ">"
-            Program.Print(">" + Program.postac.name +
-                          " cholerny kryjanie i mnie obudziłeś tym krzykiem, a taki mecz oglądałem");
+            
+            Program.Print("Tata:" + Program.postac.name +
+                          ", obudziłeś mnie tym krzykiem, a taki mecz oglądałem");
             Console.ReadKey();
-            Program.Print(">Jak już tu jestem to opowiedz mi o tej izraelskiej zbrodnii, bo mnie zaciekawiłeś.");
+            Program.Print("Tata:Co takiego wyczytałeś w tym internecie, że aż tak tobą wstrząsneło?");
             Console.ReadKey();
 
             //
             //tutaj będzie wybór 
             //
 
-            Program.Print(">Cholerni żydzi. Niestety mój kochany " + Program.postac.name +
-                          ", nie masz wpływu na to, czy izrael kiedyś odpowie za swoje zbrodnie.");
+            Program.Print("Tata:Zaś ten statek. Niestety mój kochany " + Program.postac.name +
+                          ", nie masz wpływu na takie rzeczy.");
             Console.ReadKey();
             Program.Print("Na szczęście masz wypływ na to czy będę pod wpływem.");
             Console.ReadKey();
-            Program.Print("Skocz tacie po piwko");
+            Program.Print("Tata:Skocz tacie po piwko");
             Console.Clear();
         }
     }
