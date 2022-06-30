@@ -163,7 +163,18 @@ namespace Projekt
         {
             Console.WriteLine("Siadasz do nauki. Wybierz, którego przedmiotu zamierzasz się uczyć.");
             Console.WriteLine("================================================================");
-            Console.WriteLine("(A)naliza matematyczna          (");
+            Console.WriteLine("(A)naliza matematyczna          (M)atematyka dyskretna         |");
+            Console.WriteLine("================================================================");
+            string odp = Console.ReadLine();
+            if (odp.ToLower() == "a")
+            {
+                Console.WriteLine("*Uczysz się analizy matematycznej.*"); 
+            }
+            else if (odp.ToLower() == "m")
+            {
+                Console.WriteLine("*Uczysz się matematyki dyskretnej*"); 
+            }
+
         }
     }
 }
