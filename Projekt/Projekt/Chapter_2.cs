@@ -145,7 +145,7 @@ namespace Projekt
         {
             Program.Print("Napotykasz na swojej drodzę bezdomnego.");
             Program.Print(
-                "\"Dzień dobry, *podaje dłoń*, księciuniu, czy nie miałbyś może użyczyć złoty osiemdziesiąt?\"");
+                "\"Dzień dobry  księciuniu, *podaje dłoń*, czy nie miałbyś może użyczyć złoty osiemdziesiąt?\"");
             b:
             Console.WriteLine(
                 "========================================================================================");
