@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Kub\\Documents\\oop\\projekt-po\\Projekt\\Projekt\\Projekt.csproj": {}
+    "C:\\Users\\pawel\\Desktop\\Projekt\\projekt-po\\Projekt\\Projekt\\Projekt.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Kub\\Documents\\oop\\projekt-po\\Projekt\\Projekt\\Projekt.csproj": {
+    "C:\\Users\\pawel\\Desktop\\Projekt\\projekt-po\\Projekt\\Projekt\\Projekt.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kub\\Documents\\oop\\projekt-po\\Projekt\\Projekt\\Projekt.csproj",
+        "projectUniqueName": "C:\\Users\\pawel\\Desktop\\Projekt\\projekt-po\\Projekt\\Projekt\\Projekt.csproj",
         "projectName": "Projekt",
-        "projectPath": "C:\\Users\\Kub\\Documents\\oop\\projekt-po\\Projekt\\Projekt\\Projekt.csproj",
-        "packagesPath": "C:\\Users\\Kub\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kub\\Documents\\oop\\projekt-po\\Projekt\\Projekt\\obj\\",
+        "projectPath": "C:\\Users\\pawel\\Desktop\\Projekt\\projekt-po\\Projekt\\Projekt\\Projekt.csproj",
+        "packagesPath": "C:\\Users\\pawel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\pawel\\Desktop\\Projekt\\projekt-po\\Projekt\\Projekt\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Kub\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\pawel\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -52,7 +52,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
         }
       }
     }
