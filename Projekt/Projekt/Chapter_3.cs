@@ -20,6 +20,7 @@ namespace Projekt
             Program.Print("Wracasz do pokoju, widzisz, że za oknem zaczyna padać deszcz " +
                           "i zastanawiasz się czy pora na naukę " +
                           "czy na coś innego...", 40);
+            b:
             Console.WriteLine("=====================================");
             Console.WriteLine();
             Console.WriteLine("| (P)ora na nauke    (Z)agraj w grę |");
@@ -48,6 +49,11 @@ namespace Projekt
                 Console.WriteLine();
                 Program.Print("Wciśnij dowolny przycisk, aby kontynuować...", 40);
                 Console.ReadKey();
+            }
+            else
+            {
+                Console.Clear();
+                goto b;
             }
 
             
