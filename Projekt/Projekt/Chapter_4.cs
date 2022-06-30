@@ -8,7 +8,7 @@ namespace Projekt
         {
             Program.Print("Wracasz do domu, zaczyna padać deszcz " +
                           "i zastanawiasz się czy pora na naukę " +
-                          "czy na coś innego", 40);
+                          "czy na coś innego...", 40);
             Console.WriteLine("=====================================");
             Console.WriteLine();
             Console.WriteLine("| (P)ora na nauke    (Z)agraj w grę |");
@@ -71,7 +71,7 @@ namespace Projekt
             Console.BackgroundColor = ConsoleColor.Black;
             Console.Clear();
 
-            int delayInMillisecs = 50;
+            int opoznienie = 50;
 
             do // do czasu kliknięcia 'q'
             {
@@ -155,8 +155,13 @@ namespace Projekt
                 Console.SetCursorPosition(x, y);
                 Console.Write(ch);
 
-                System.Threading.Thread.Sleep(delayInMillisecs);
+                System.Threading.Thread.Sleep(opoznienie);
             } while (gameLive);
+        }
+
+        static void Nauka()
+        {
+            
         }
     }
 }
