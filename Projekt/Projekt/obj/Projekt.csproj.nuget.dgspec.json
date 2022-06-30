@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projekt studia\\projekt-po\\Projekt\\Projekt\\Projekt.csproj": {}
+    "C:\\Users\\Kub\\Documents\\oop\\projekt-po\\Projekt\\Projekt\\Projekt.csproj": {}
   },
   "projects": {
-    "C:\\Projekt studia\\projekt-po\\Projekt\\Projekt\\Projekt.csproj": {
+    "C:\\Users\\Kub\\Documents\\oop\\projekt-po\\Projekt\\Projekt\\Projekt.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projekt studia\\projekt-po\\Projekt\\Projekt\\Projekt.csproj",
+        "projectUniqueName": "C:\\Users\\Kub\\Documents\\oop\\projekt-po\\Projekt\\Projekt\\Projekt.csproj",
         "projectName": "Projekt",
-        "projectPath": "C:\\Projekt studia\\projekt-po\\Projekt\\Projekt\\Projekt.csproj",
-        "packagesPath": "C:\\Users\\adams\\.nuget\\packages\\",
-        "outputPath": "C:\\Projekt studia\\projekt-po\\Projekt\\Projekt\\obj\\",
+        "projectPath": "C:\\Users\\Kub\\Documents\\oop\\projekt-po\\Projekt\\Projekt\\Projekt.csproj",
+        "packagesPath": "C:\\Users\\Kub\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Kub\\Documents\\oop\\projekt-po\\Projekt\\Projekt\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\adams\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Kub\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -54,7 +52,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
