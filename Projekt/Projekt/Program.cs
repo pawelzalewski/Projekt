@@ -10,13 +10,13 @@ namespace Projekt
 
         static void Main(string[] args)
         {
-            Start();
-            Introduction.Intro();
-            Chapter_1.Wyprawa();
-            Chapter_2.Osiedlowy();
+            // Start();
+            // Introduction.Intro();
+            // Chapter_1.Wyprawa();
+            // Chapter_2.Osiedlowy();
             Chapter_3.Deszcz();
-            Chapter_4.PonownaNauka();
-            Chapter_5.Sesja();
+            // Chapter_4.PonownaNauka();
+            // Chapter_5.Sesja();
         }
 
         static void Start()
