@@ -12,7 +12,7 @@ namespace Projekt
             Console.ReadKey();
             Console.Clear();
             Program.Print(
-                "Przyszedł ten czas w życiu studenta. Sesja zbliża sie nieubłaganie a ty, nie ma w tym zaskoczenia, nic nie umiesz. Wiadomo, nie miałeś czasu sie uczyć bo cięszko pracujesz.\n Jednak wypadałoby się wziąć za nauke. W przeciwnym razie mógłbyś nie zdać, a mamie byłoby bardzo smutno.");
+                "Przyszedł ten czas w życiu studenta. Sesja zbliża sie nieubłaganie a ty, nie ma w tym zaskoczenia, nic nie umiesz. Wiadomo, nie miałeś czasu sie uczyć bo ciężko pracujesz.\n Jednak wypadałoby się wziąć za nauke. W przeciwnym razie mógłbyś nie zdać, a mamie byłoby bardzo smutno.");
 
             Console.ReadKey();
             Program.Print("Co mógłbym zrobić, żeby zdać? - myślisz sobie licząc że coś mądrego wpadnie ci do głowy?");
