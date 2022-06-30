@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Net.Mime;
+using System.Threading.Channels;
 
 namespace Projekt
 {
@@ -11,10 +12,10 @@ namespace Projekt
         {
             Start();
             Introduction.Intro();
-            Chapter_1.PierwszaAkcja();
-            Chapter_2.Rozdzial2();
-            
-            Chapter_4.Deszcz();
+            Chapter_1.Wyprawa();
+            Chapter_2.Osiedlowy();
+            Chapter_3.Deszcz();
+            Chapter_4.PonownaNauka();
             Chapter_5.Sesja();
         }
 
@@ -36,7 +37,7 @@ $$\   $$ |  $$ |$$\ $$ |  $$ |$$ |  $$ |$$   ____|$$ |  $$ | $$ |$$\ \____$$\   
             string g = Console.ReadLine();
             Console.Clear();
             if (g.ToLower() == "g")
-                Print("Witam gracza", 60);
+                Print("Witaj!", 60);
             else
                 goto poczatek;
             //Wstęp oraz imie naszej postaci
@@ -46,11 +47,12 @@ $$\   $$ |  $$ |$$\ $$ |  $$ |$$ |  $$ |$$   ____|$$ |  $$ | $$ |$$\ \____$$\   
             Console.Clear();
             if (postac.name == "")
             {
-                Print("Musisz podac swoje imie");
+                Print("Musisz podać swoje imie");
                 goto imie;
             }
 
-            Console.WriteLine("A więc twoje imie to {0}, grubo", postac.name);
+            Print("A więc twoje imie to ");
+            Console.Write(Program.postac.name);
             Console.ReadKey();
             Console.Clear();
         }

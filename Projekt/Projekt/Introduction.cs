@@ -8,7 +8,16 @@ namespace Projekt
         {
             //Rozdział 1
             Program.Print("Rozdział 1");
-            Program.Print("Misja");
+            string title = @"___  ____     _       
+|  \/  (_)   (_)      
+| .  . |_ ___ _  __ _ 
+| |\/| | / __| |/ _` |
+| |  | | \__ \ | (_| |
+\_|  |_/_|___/ |\__,_|
+            _/ |      
+           |__/       
+";
+            Console.WriteLine(title);
             Console.ReadKey();
             Console.Clear();
             Program.Print(
@@ -55,6 +64,7 @@ namespace Projekt
             Console.ReadKey();
             Program.Print("Tata:Skocz tacie po piwko");
             Console.Clear();
+            Console.ReadKey();
         }
     }
 }

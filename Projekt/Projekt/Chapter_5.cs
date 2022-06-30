@@ -8,6 +8,18 @@ namespace Projekt
     {
         public static void Sesja()
         {
+            Console.ReadKey();
+            Console.Clear();
+            Program.Print("Po wszystkim zauważasz że robi sie już późno.", 40);
+            Program.Print("Niestety, ale do sesji już mało czasu.", 40);
+            Program.Print("Już lepiej sie do niej nie przygotujesz.", 40);
+            Program.Print("Myślisz sobie \"Bez spiny, są drugie terminy\" próbując podnieść sie na duchu.", 40);
+            Program.Print("Mimo to i tak odczuwasz niepokój.", 40);
+            Program.Print("Nawet jeśli dużo sie nienauczyłeś to chociaż wypadałoby przyjść na sesje wyspanym.", 40);
+            Program.Print("Kierując się tą myślą udajesz się do łóżka.", 40);
+
+            Console.ReadKey();
+            Console.Clear();
             Program.Print("Budzisz się następnego dnia rano.");
             Program.Print("To jest ten dzień którego tak sie obawiasz:");
             Console.ReadKey();

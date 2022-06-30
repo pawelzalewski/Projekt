@@ -1,163 +1,177 @@
-﻿using System; 
-using System.Collections.Generic;
-using System.Runtime.InteropServices;
+﻿using System;
 
 namespace Projekt
-
-{ public class Chapter_3
-    { public static void Osiedlowy() 
+{
+    public class Chapter_3
+    {
+        public static void Deszcz()
         {
-            Program.Print("W końcu dotarłem do sklepu.");
-            Program.Print("Ależ fajna nazwa sklepu!");
-            Console.ReadKey();
-            Console.WriteLine(@"
- #     #                                                    
- ##   ## # #####    ##   #####  ###### #      #    #   ##   
- # # # # # #    #  #  #  #    # #      #      #   #   #  #  
- #  #  # # #    # #    # #####  #####  #      ####   #    # 
- #     # # #####  ###### #    # #      #      #  #   ###### 
- #     # # #   #  #    # #    # #      #      #   #  #    # 
- #     # # #    # #    # #####  ###### ###### #    # #    # 
-");
-            Console.ReadKey();
-            Console.Clear();
-            Program.Print("*Wchodzisz do sklepu*");
-            Program.Print("Dzień dobry Pani Aniu!");
-            Program.Print("Pani Ania: Dzień dobry, co podać?");
-            Console.ReadKey();
-            Console.Clear();
-            Console.WriteLine("Lista Produktów");
-            Console.WriteLine("1. Mleko");
-            Console.WriteLine("2. Jajka");
-            Console.WriteLine("3. Perła eksport"); 
-            Console.WriteLine("Stać cię tylko na dwie rzeczy.");
-            Console.ReadKey();
-            Console.WriteLine("");
-            Console.WriteLine("Jaki pierwszy produkt wybierasz?");
-            Console.WriteLine("============================================================");
-            Console.WriteLine(); 
-            Console.WriteLine("| (1) Mleko     (2) Jajka    (3) Perła eksport |");
+            Program.Print("Wracasz do pokoju, widzisz, że za oknem zaczyna padać deszcz " +
+                          "i zastanawiasz się czy pora na naukę " +
+                          "czy na coś innego...", 40);
+            Console.WriteLine("=====================================");
             Console.WriteLine();
-            Console.WriteLine("============================================================");
-            string z1 = Console.ReadLine();
-            Console.Clear();
-            Console.WriteLine("Jaki drugi produkt wybierasz?");
-            Console.WriteLine("============================================================");
-            Console.WriteLine(); 
-            Console.WriteLine("| (1) Mleko     (2) Jajka    (3) Perła eksport |");
+            Console.WriteLine("| (P)ora na nauke    (Z)agraj w grę |");
             Console.WriteLine();
-            Console.WriteLine("============================================================");
-            string z2 = Console.ReadLine();
-            
-            if (z1.ToLower() == "1")
+            Console.WriteLine("=====================================");
+            string odp = Console.ReadLine();
+            if (odp.ToLower() == "p" || odp.ToLower() == "nauka")
             {
-                z1 = "Mleko";
+                //tu bedzie nauka
+                Program.postac.szansa += 20;
+                Program.Print("Świetnie! Twoja szansa na zdanie wzrosła o 20%!", 40);
+                Program.Print("Szansa na zdanie: ", 40);
+                Console.Write(Program.postac.szansa + "%");
+                Console.WriteLine();
+                Console.WriteLine("Wciśnij dowolny przycisk, aby kontynuować...");
+                Console.ReadKey();
             }
-            else if (z1.ToLower() == "2")
+            else if (odp.ToLower() == "z" || odp.ToLower() == "gra")
             {
-                z1 = "Jajka";
-            }
-            else if (z1.ToLower() == "3")
-            {
-                z1 = "Perła eksport";
-            }
-            
-            if (z2.ToLower() == "1")
-            {
-                z2 = "Mleko";
-            }
-            else if (z2.ToLower() == "2")
-            {
-                z2 = "Jajka";
-            }
-            else if (z2.ToLower() == "3")
-            {
-                z2 = "Perła eksport";
-            }
-            
-            Console.Clear();
-            
-            List<Sklep> Lista = new List<Sklep>();
-
-            Lista.Add(new Sklep
-            {
-                Pierwszy_zakup = z1,
-                Drugi_zakup = z2
-            });
-            
-            
-            foreach (Sklep zakup in Lista)
-            {
-                Console.WriteLine(zakup.lista_zakupow());
-            }
-            
-            Console.ReadLine();
-            Console.Clear();
-            
-            Program.Print("Mam co chciałem, czas na powrót do domu");
-            Console.ReadKey();
-            Console.Clear();
-
-            Program.Print("*Wchodzisz do domu, a w progu już czekają na ciebie rodziciele.*");
-            Console.ReadKey();
-            
-            Program.Print("Mama: Pokaż co kupiłeś");
-            Program.Print("");
-            Console.ReadKey();
-            
-            if ((z1 == "Mleko") & (z2 == "Mleko"))
-            {
-                Program.Print("Mama: Po co kupiłeś dwa razy to samo?");
-                Program.Print("Tata: Nie możesz zapamiętać prostej listy?");
-            }
-            else if ((z1 == "Jajka") & (z2 == "Jajka"))
-            {
-                Program.Print("Mama: Po co kupiłeś dwa razy to samo?");
-                Program.Print("Tata: Nie możesz zapamiętać prostej listy?");
-            }
-            else if ((z1 == "Perła eksport") & (z2 == "Perła eksport"))
-            {
-                Program.Print("Mama: Coś ty narobił!?");
-                Program.Print("Tata: Kocham cię synek! Akurat Bayern z Robercikiem gra!");
-            }
-            else if ((z1 == "Mleko") & (z2 == "Jajka"))
-            {
-                Program.Print("Mama: Brawo synuś");
-                Program.Print("Tata: Przykro mi, że nie traktujesz mnie poważnie...");
-            }
-            else if ((z1 == "Mleko") & (z2 == "Perła eksport"))
-            {
-                Program.Print("Mama: Mogło być gorzej...");
-                Program.Print("Tata: Kocham cię synek");
-                
-            }
-            else if ((z1 == "Jajka") & (z2 == "Mleko"))
-            {
-                Program.Print("Mama: Brawo synuś");
-                Program.Print("Tata: Przykro mi, że nie traktujesz mnie poważnie...");
-            }
-            else if ((z1 == "Jajka") & (z2 == "Perła eksport"))
-            {
-                Program.Print("Mama: Mogło być gorzej...");
-                Program.Print("Tata: Kocham cię synek");
-            }
-            else if ((z1 == "Perła eksport") & (z2 == "Mleko"))
-            {
-                Program.Print("Mama: Mogło być gorzej...");
-                Program.Print("Tata: Kocham cię synek");
-            }
-            else if ((z1 == "Perła eksport") & (z2 == "Jajka"))
-            {
-                Program.Print("Mama: Mogło być gorzej...");
-                Program.Print("Tata: Kocham cię synek");
+                Gra();
+                Console.Clear();
+                Program.postac.szansa -= 5;
+                Program.Print("Niestety, ale twoja szansa na zdanie spadła o 5%.");
+                Program.Print("Szansa na zdanie: ", 40);
+                Console.Write(Program.postac.szansa + "%");
+                Console.WriteLine();
+                Program.Print("Wciśnij dowolny przycisk, aby kontynuować...", 40);
+                Console.ReadKey();
             }
 
+            
+        }
+
+        static void Gra()
+        {
+            Console.WriteLine("Naciśnij dowolny przycisk aby zagrać w grę...");
             Console.ReadKey();
-            Console.WriteLine("");
-            Program.Print("Mama: A teraz idź się uczyć, masz w końcu egzaminy.");
-            Program.Print("Tata: Słuchaj się matki jak coś mówi!");
-            Console.ReadKey();
+
+            // "wąż"
+            char ch = '*';
+            bool gameLive = true;
+            ConsoleKeyInfo consoleKey;
+
+
+            int x = 0, y = 2;
+            int dx = 1, dy = 0;
+            int szerokoscKonsoli = 80;
+            int wysokoscKonsoli = 25;
+
+            Console.BackgroundColor = ConsoleColor.Black;
             Console.Clear();
+
+            int opoznienie = 50;
+
+            do // do czasu kliknięcia 'q'
+            {
+                ConsoleColor cc = Console.ForegroundColor;
+                Console.SetCursorPosition(0, 0);
+                Console.WriteLine("Poruszaj się strzałkami lub 'h', 'j', 'k', 'l' w lewo, do dołu, do góry i w prawo.");
+                Console.WriteLine("Naciśnić 'c' aby wyczyścić pole gry, 'q' aby zakończyć grę.");
+                Console.SetCursorPosition(x, y);
+                Console.ForegroundColor = cc;
+
+                if (Console.KeyAvailable)
+                {
+                    consoleKey = Console.ReadKey(true);
+                    switch (consoleKey.Key)
+                    {
+                        case ConsoleKey.C:
+                            Console.BackgroundColor = ConsoleColor.Black;
+                            Console.Clear();
+                            break;
+                        case ConsoleKey.UpArrow: //Góra
+                            dx = 0;
+                            dy = -1;
+                            Console.ForegroundColor = ConsoleColor.Red;
+                            break;
+                        case ConsoleKey.K: //Góra
+                            dx = 0;
+                            dy = -1;
+                            Console.ForegroundColor = ConsoleColor.Red;
+                            break;
+                        case ConsoleKey.DownArrow: //Dół
+                            dx = 0;
+                            dy = 1;
+                            Console.ForegroundColor = ConsoleColor.Cyan;
+                            break;
+                        case ConsoleKey.J: //Dół
+                            dx = 0;
+                            dy = 1;
+                            Console.ForegroundColor = ConsoleColor.Cyan;
+                            break;
+                        case ConsoleKey.LeftArrow: //Lewo
+                            dx = -1;
+                            dy = 0;
+                            Console.ForegroundColor = ConsoleColor.Green;
+                            break;
+                        case ConsoleKey.H: //Lewo
+                            dx = -1;
+                            dy = 0;
+                            Console.ForegroundColor = ConsoleColor.Green;
+                            break;
+                        case ConsoleKey.RightArrow: //Prawo
+                            dx = 1;
+                            dy = 0;
+                            Console.ForegroundColor = ConsoleColor.Magenta;
+                            break;
+                        case ConsoleKey.L: //Prawo
+                            dx = 1;
+                            dy = 0;
+                            Console.ForegroundColor = ConsoleColor.Magenta;
+                            break;
+                        case ConsoleKey.Q: //Koniec
+                            gameLive = false;
+                            Console.ForegroundColor = ConsoleColor.White;
+                            break;
+                    }
+                }
+
+                Console.SetCursorPosition(x, y);
+
+                x += dx;
+                if (x > szerokoscKonsoli)
+                    x = 0;
+                if (x < 0)
+                    x = szerokoscKonsoli;
+
+                y += dy;
+                if (y > wysokoscKonsoli)
+                    y = 2;
+                if (y < 2)
+                    y = wysokoscKonsoli;
+
+                Console.SetCursorPosition(x, y);
+                Console.Write(ch);
+
+                System.Threading.Thread.Sleep(opoznienie);
+            } while (gameLive);
+        }
+
+        static Random rand = new Random();
+
+        static void Nauka()
+        {
+            Console.WriteLine("Siadasz do nauki. Wybierz, którego przedmiotu zamierzasz się uczyć.");
+            Console.WriteLine("================================================================");
+            Console.WriteLine("(A)naliza matematyczna          (M)atematyka dyskretna         |");
+            Console.WriteLine("================================================================");
+            string odp = Console.ReadLine();
+            if (odp.ToLower() == "a")
+            {
+                int random = rand.Next(14, 30);
+                Console.WriteLine("*Uczysz się analizy matematycznej.*");
+                Program.postac.szansa += random;
+                Console.ReadKey();
+            }
+            else if (odp.ToLower() == "m")
+            {
+                int random = rand.Next(14, 30);
+                Console.WriteLine("*Uczysz się matematyki dyskretnej*");
+                Program.postac.szansa += random;
+                Console.ReadKey();
+            }
         }
     }
 }
