@@ -15,7 +15,7 @@ namespace Projekt
             // Chapter_2.Rozdzial2();
             //
             // Chapter_4.Deszcz();
-            Chapter_5.Sesja();
+            // Chapter_5.Sesja();
         }
 
         static void Start()
