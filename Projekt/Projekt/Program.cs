@@ -37,11 +37,11 @@ $$\   $$ |  $$ |$$\ $$ |  $$ |$$ |  $$ |$$   ____|$$ |  $$ | $$ |$$\ \____$$\   
             string g = Console.ReadLine();
             Console.Clear();
             if (g.ToLower() == "g")
-                Print("Witaj!", 60);
+                Print("Witaj!");
             else
                 goto poczatek;
             //Wstęp oraz imie naszej postaci
-            Print("Podaj swoje imię:", 60);
+            Print("Podaj swoje imię:");
             imie:
             postac.name = Console.ReadLine();
             Console.Clear();

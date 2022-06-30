@@ -7,6 +7,7 @@ namespace Projekt
     {
         public static void Wyprawa()
         {
+            Console.Clear();
             string title = @" __    __ __ __ ____  ____   ____ __    __  ____ 
 |  |__|  |  |  |    \|    \ /    |  |__|  |/    |
 |  |  |  |  |  |  o  )  D  )  o  |  |  |  |  o  |
