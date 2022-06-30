@@ -15,12 +15,12 @@ namespace Projekt
                 "Przyszedł ten czas w życiu studenta. Sesja zbliża sie nieubłaganie a ty, nie ma w tym zaskoczenia, nic nie umiesz. Wiadomo, nie miałeś czasu sie uczyć bo cięszko pracujesz.\n Jednak wypadałoby się wziąć za nauke. W przeciwnym razie mógłbyś nie zdać, a mamie byłoby bardzo smutno.");
 
             Console.ReadKey();
-            Program.Print("Co mógłbym zrobić, żeby zdać?-myślisz sobie licząc że coś mądrego wpadnie ci do głowy?");
+            Program.Print("Co mógłbym zrobić, żeby zdać? - myślisz sobie licząc że coś mądrego wpadnie ci do głowy?");
             
             Program.Print("(teraz trzeba napisać myśl, która przyjdzie ci do głowy)");
             string input = Console.ReadLine();
 
-            Program.Print(input + "" + " .Faktycznie fajna myśl, ale czy aby na pewno ci to w czymś pomoże?");
+            Program.Print(input + "" + ". Faktycznie fajna myśl, ale czy aby na pewno ci to w czymś pomoże?");
             Console.ReadKey();
             Program.Print(
                 "Gdybyś tylko mógł zapamiętać tą myśl. Szkoda że jesteś uzależniony od mediów społecznościowych i ich ciągłego zalewu informacjami. Gdyby nie one może nie miałbyś takich problemów z pamięcią.");
@@ -51,7 +51,7 @@ namespace Projekt
             Program.Print("Tata:Zaś ten statek. Niestety mój kochany " + Program.postac.name +
                           ", nie masz wpływu na takie rzeczy.");
             Console.ReadKey();
-            Program.Print("Ty:Na szczęście masz wypływ na to czy będę pod wpływem.");
+            Program.Print("Na szczęście masz wypływ na to czy będę pod wpływem.");
             Console.ReadKey();
             Program.Print("Tata:Skocz tacie po piwko");
             Console.Clear();
