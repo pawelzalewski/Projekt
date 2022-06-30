@@ -7,6 +7,17 @@ namespace Projekt
     {
         public static void Wyprawa()
         {
+            string title = @" __    __ __ __ ____  ____   ____ __    __  ____ 
+|  |__|  |  |  |    \|    \ /    |  |__|  |/    |
+|  |  |  |  |  |  o  )  D  )  o  |  |  |  |  o  |
+|  |  |  |  ~  |   _/|    /|     |  |  |  |     |
+|  `  '  |___, |  |  |    \|  _  |  `  '  |  _  |
+ \      /|     |  |  |  .  \  |  |\      /|  |  |
+  \_/\_/ |____/|__|  |__|\_|__|__| \_/\_/ |__|__|
+                                                 
+";
+                                                                                       
+            Console.WriteLine(title);
             Program.Print(
                 "Wyszedłeś do sklepu. W drodze zauważasz z daleka, że w twoją stronę kieruje się dziwnie zachowujący się bezdomny mężczyzna.");
             Program.Print("Co robisz w tej sytuacji?");

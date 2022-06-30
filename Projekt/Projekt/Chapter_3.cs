@@ -6,6 +6,17 @@ namespace Projekt
     {
         public static void Deszcz()
         {
+            string title = @" ______  _______ _______ _______ _______ _______ 
+(  __  \(  ____ \  ____ Y ___   )  ____ Y ___   )
+| (  \  ) (    \/ (    \|/   )  | (    \|/   )  |
+| |   ) | (__   | (_____    /   ) |         /   )
+| |   | |  __)  (_____  )  /   /| |        /   / 
+| |   ) | (           ) | /   / | |       /   /  
+| (__/  ) (____/Y\____) |/   (_/\ (____/\/   (_/\
+(______/(_______|_______)_______/_______/_______/
+                                                 
+";
+            Console.WriteLine(title);
             Program.Print("Wracasz do pokoju, widzisz, że za oknem zaczyna padać deszcz " +
                           "i zastanawiasz się czy pora na naukę " +
                           "czy na coś innego...", 40);

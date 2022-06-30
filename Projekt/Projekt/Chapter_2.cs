@@ -8,7 +8,6 @@ namespace Projekt
     { public static void Osiedlowy() 
         {
             Program.Print("W końcu dotarłeś do sklepu.");
-            Console.WriteLine("Nazwa sklepu:");
             Console.WriteLine(@"
  #     #                                                    
  ##   ## # #####    ##   #####  ###### #      #    #   ##   
