@@ -8,6 +8,7 @@ namespace Projekt
 
         public static void PonownaNauka()
         {
+            Console.Clear();
             string title = @"                                                  
                                                   
 ___      ___                  ___                 

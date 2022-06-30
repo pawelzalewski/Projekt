@@ -32,6 +32,7 @@ namespace Projekt
             string odp = Console.ReadLine();
             if (odp.ToLower() == "z" || odp.ToLower() == "zmieniam kierunek")
             {
+                Console.Clear();
                 Program.Print("Skręcasz w ciemną uliczkę, nic nie widzisz.", 40);
                 Program.Print(
                     "Idziesz przed siebie potykając się o leżących na ziemii bezdomnych i porozrzucane śmieci i nagle wpadasz na jednego z osiedlowych gitowców.");

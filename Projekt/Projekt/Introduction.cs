@@ -54,6 +54,7 @@ namespace Projekt
             Program.Print("Tata: Co takiego wyczytałeś w tym internecie, że aż tak tobą wstrząsneło?");
             Console.ReadKey();
             Program.Print("Ja: Słyszałeś tatusiu kiedyś o incydencie z 1967 roku?");
+            Console.ReadKey();
             Program.Print("Tata: Aha, zatonięcie USS LIBERTY. Niestety, " + Program.postac.name +
                           ", nie masz wpływu na takie rzeczy.");
             Program.Print("Tata: Na szczęście masz wypływ na to czy będę pod wpływem.");
