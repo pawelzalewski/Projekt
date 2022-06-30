@@ -161,7 +161,9 @@ namespace Projekt
 
         static void Nauka()
         {
-            
+            Console.WriteLine("Siadasz do nauki. Wybierz, którego przedmiotu zamierzasz się uczyć.");
+            Console.WriteLine("================================================================");
+            Console.WriteLine("(A)naliza matematyczna          (");
         }
     }
 }
