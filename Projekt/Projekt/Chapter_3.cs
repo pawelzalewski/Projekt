@@ -29,7 +29,7 @@ namespace Projekt
             string odp = Console.ReadLine();
             if (odp.ToLower() == "p" || odp.ToLower() == "nauka")
             {
-                //tu bedzie nauka
+                Nauka();
                 Program.postac.szansa += 20;
                 Program.Print("Świetnie! Twoja szansa na zdanie wzrosła o 20%!", 40);
                 Program.Print("Szansa na zdanie: ", 40);
